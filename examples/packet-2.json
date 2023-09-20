@@ -1,0 +1,12 @@
+{
+  "name": "packet-2",
+  "ver": "1.10",
+  "targets": [
+    {"path": "./examples/archive_this1/*.txt", "exclude": "*.tmp"},
+    {"path": "./examples/archive_this2/*", "exclude": "*.tmp"}
+  ],
+  "packets": {
+    "name": "packet-3",
+    "ver": "<=2.0"
+  }
+}
